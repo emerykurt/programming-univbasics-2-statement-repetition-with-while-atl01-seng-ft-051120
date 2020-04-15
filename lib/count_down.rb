@@ -1,7 +1,6 @@
-magic_exit_number = 0 
-count = 10 
-while count >= 1 do 
-  puts count
-  count -= 1
+count = 0
+while count < 23 do 
+  puts "I am not #{count}, I am 23!"
+  count += 1
 end
-puts "Happy New Year!"
+puts "I am 23! I will be 24 on October 27th!"
